@@ -1,4 +1,8 @@
 package person;
+<<<<<<< HEAD
+=======
+import java.util.List;
+>>>>>>> new
 
 import person.consciousness.Knowledge;
 
@@ -9,10 +13,16 @@ public class Student {
       this.name = name;
       this.knowledge = knowledge;
     }
+<<<<<<< HEAD
 
     public void setKnowledge(Knowledge knowledge) {
               this.knowledge = knowledge;
         }
+=======
+    public void setKnowledge(Knowledge knowledge) {
+        this.knowledge = knowledge;
+    }
+>>>>>>> new
     public  Knowledge getKnowledge() {
     	return this.knowledge;
     }
